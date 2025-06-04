@@ -1,0 +1,60 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnZ6a3NyOXBvcTF1dXNyanhscWgyZXRua2ZvbDloanF5OXVlbmF6ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/687qS11pXwjCM/giphy.gif");
+    width: 500px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section:nth-child(2) {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd201ZnExaHFleXdoOWN1b3E3aTBuMjg2ZDJvbnl5ajJhdzhueHdibCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1oKjCzdnatyyMxkdxF/giphy.gif");
+    padding-top: 20px;
+}
+
+h2,
+p {
+    color: rgb(255, 162, 0);
+    text-align: center;
+}
+
+.feedbackContainer {
+    border: 0.5cm solid rgb(241, 186, 7);
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.btnContainer {
+    width: 300px;
+    gap: 30px;
+
+}
+
+.btnOption {
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    font-size: 20px;
+    justify-content: center;
+    background: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXE0NDFpMnd3dHN0dDdiNmpia29zeXdwaXV2YmRpNWV5cTc0OGZxeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l378wcSfS7eXWQgla/giphy.gif");
+}
+svg {
+    width:30px;
+    height: 30px;
+}
